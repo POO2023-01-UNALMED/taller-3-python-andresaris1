@@ -24,7 +24,7 @@ class TV:
         TV._TV__numTV +=1
 
     def __init__(self, marca, estado):
-        if self.estado = True:
+        if self.estado == True:
             return self.estado = 'encendido',True
         else:
             return self.estado = 'no encendido',False
@@ -60,14 +60,14 @@ class TV:
         return self.canal
 
     def turn(turnOn, turnOff):
-        if turnOn = True:
+        if turnOn == True:
             return self.estado = True
         
-        elif turnOff = True:
+        elif turnOff == True:
             return self.estado = False
         
     def getestado(self):
-        if self.estado = True:
+        if self.estado == True:
             return self.estado = 'encendido'
         else:
             return self.estado = 'no encendido'
@@ -76,11 +76,11 @@ class TV:
         self.canalUp = self.canal +1
         self.canalDown = self.canal -1
         
-        if self.estado = True:
-            if self.canalUp = True and self.canalUp <=120:
+        if self.estado == True:
+            if self.canalUp == True and self.canalUp <=120:
                 return self.canal = self.canalUp
 
-            elif self.canalDown = True and self.canalDown >=1:
+            elif self.canalDown == True and self.canalDown >=1:
                 return self.canal = self.canalDown
 
     def cambiovolumen(self, volumen):
@@ -88,10 +88,10 @@ class TV:
         self.volumenDown = self.volumen -1
         
         if self.estado = True:
-            if self.volumenUp = True and self.volumenUp <=7:
+            if self.volumenUp == True and self.volumenUp <=7:
                 return self.volumen = self.volumenUp
 
-            elif self.volumenDown = True and self.volumenDown >=0:
+            elif self.volumenDown == True and self.volumenDown >=0:
                 return self.volumen = self.volumenDown
 
 
