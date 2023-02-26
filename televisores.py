@@ -24,10 +24,7 @@ class TV:
         TV._TV__numTV +=1
 
     def __init__(self, marca, estado):
-        if self.estado == True:
-            return self.estado = 'encendido'
-        else:
-            return self.estado = 'no encendido'
+        self.estado = estado
 
     def setmarca(self, marca):
         self.marca = marca
