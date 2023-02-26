@@ -56,12 +56,12 @@ class TV:
     def getcanal(self):
         return self.canal
 
-    def turn(turnOn, turnOff):
-        if turnOn == True:
-            return self.estado = True
+    def turn(self, turnOn, turnOff):
+        if self.turnOn == True:
+            return self.estado = self.turnOn
         
-        elif turnOff == True:
-            return self.estado = False
+        elif self.turnOff == True:
+            return self.estado = self.turnOff
         
     def getestado(self):
         if self.estado == True:
