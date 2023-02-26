@@ -58,10 +58,10 @@ class TV:
 
     def turn(self, turnOn, turnOff):
         if self.turnOn == True:
-            return self.estado = True
+            self.estado = True
         
         elif self.turnOff == True:
-            return self.estado = False
+            self.estado = False
         
     def getestado(self):
         if self.estado == True:
