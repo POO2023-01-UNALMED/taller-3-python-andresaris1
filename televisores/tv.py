@@ -26,7 +26,7 @@ class TV:
         self.estado = estado
 
     def setmarca(self, marca):
-        self.marca = marca
+        self.marca = Marca
 
     def setcontrol(self, control):
         self.control = control
