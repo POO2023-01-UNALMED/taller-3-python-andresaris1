@@ -12,10 +12,6 @@ class TV:
         self.estado = estado
         self.volumen = volumen
         self.control = control
-
-    @classmethod
-    def getNumTV(cls):
-        return numTV
     
     @classmethod
     def setNumTV(cls):
