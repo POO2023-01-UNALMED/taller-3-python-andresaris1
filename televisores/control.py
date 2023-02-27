@@ -1,5 +1,5 @@
 class Control:
-    def __init__(self, tv, turnOn, turnOff, canalUp, canalDown, volumenUp, volumenDown, setCanal, enlazar):
+    def __init__(self, tv):
         self._tv = none
 
     def canalUp(self):
