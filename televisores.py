@@ -94,7 +94,7 @@ class TV:
 
 class Control:
     def __init__(self, tv, turnOn, turnOff, canalUp, canalDown, volumenUp, volumenDown, setCanal, enlazar):
-        self.tv = tv
+        self.tv = televisores.tv
         self.turnOn = bool
         self.turnOff = bool
         self.canalUp = int
