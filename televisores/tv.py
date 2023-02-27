@@ -84,9 +84,11 @@ class TV:
                 self.volumen = volumenDown
 
     @classmethod
-    def setnumTV(cls):
-        cls._numTV +=1
-    @classmethod
     def getnumTV(cls):
         return numTV
+    
+    @classmethod
+    def setnumTV(cls):
+        cls._numTV +=1
+    
 
