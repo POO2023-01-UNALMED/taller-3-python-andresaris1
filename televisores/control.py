@@ -2,10 +2,10 @@ class Control:
     def __init__(self):
         self.tv = None
 
-    def setTV(self, tv):
+    def setTv(self, tv):
         self.tv = tv
 
-    def getTV(self):
+    def getTv(self):
         return self.tv
 
     def turnOn(self):
