@@ -16,6 +16,10 @@ class TV:
     @classmethod
     def setNumTV(cls):
         cls.numTV +=1
+
+    @classmethod
+    def getNumTV(cls):
+        return numTV
     
 
     def TV(self, marca, estado):
