@@ -7,11 +7,11 @@ class TV:
     
     def __init__(self, marca, canal, precio, estado, volumen, control):
         self.marca = marca
-        self.canal = int
-        self.precio = int
-        self.estado = bool
-        self.volumen = int
-        self.control = Control
+        self.canal = canal
+        self.precio = precio
+        self.estado = estado
+        self.volumen = volumen
+        self.control = control
         TV._TV__numTV +=1
 
     def TV(self, marca, estado):
