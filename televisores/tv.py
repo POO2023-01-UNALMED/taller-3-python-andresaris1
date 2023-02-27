@@ -12,7 +12,7 @@ class TV:
         self.estado = estado
         self.volumen = volumen
         self.control = control
-        TV._numTV +=1
+
 
     def TV(self, marca, estado):
         self.estado = estado
@@ -61,24 +61,28 @@ class TV:
             self.estado = 'no encendido'
 
     def cambiocanal(self, canal):
-        self.canalUp = self.canal +1
-        self.canalDown = self.canal -1
+        canalUp = self.canal +1
+        canalDown = self.canal -1
         
         if self.estado == True:
-            if self.canalUp == True and self.canalUp <=120:
+            if canalUp == True and canalUp <=120:
                 self.canal = self.canalUp
 
-            elif self.canalDown == True and self.canalDown >=1:
-                self.canal = self.canalDown
+            elif canalDown == True and canalDown >=1:
+                self.canal = canalDown
 
     def cambiovolumen(self, volumen):
-        self.volumenUp = self.volumen +1
-        self.volumenDown = self.volumen -1
+        volumenUp = self.volumen +1
+        volumenDown = self.volumen -1
         
         if self.estado == True:
-            if self.volumenUp == True and self.volumenUp <=7:
-                self.volumen = self.volumenUp
+            if volumenUp == True and volumenUp <=7:
+                self.volumen = volumenUp
 
-            elif self.volumenDown == True and self.volumenDown >=0:
-                self.volumen = self.volumenDown
+            elif self.volumenDown == True and volumenDown >=0:
+                self.volumen = volumenDown
+
+    @classmethod
+    def setnumTV(cls):
+        cls._numTV +=1
 
