@@ -5,7 +5,7 @@ class Marca:
         self.marca = marca
 
     def getMarca(self):
-        return self.marca
+        self.marca
 
 
         
