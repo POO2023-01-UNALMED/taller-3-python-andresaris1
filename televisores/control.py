@@ -1,6 +1,6 @@
 class Control:
     def __init__(self, tv):
-        self._tv = none
+        self._tv = None
 
     def get_tv(self):
         return self._tv
