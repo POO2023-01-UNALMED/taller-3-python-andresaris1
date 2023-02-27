@@ -19,7 +19,7 @@ class TV:
         self.marca = marca
         self.estado = estado
         self.control= None
-        TV.numTV +=1
+        TV.numTV = numTV
         
 
     def get_marca(self):
