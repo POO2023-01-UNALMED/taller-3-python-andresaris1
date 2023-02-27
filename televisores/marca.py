@@ -1,10 +1,12 @@
 class Marca:
-    marca = str
-        
-    def setmarca(self, marca):
+
+    def __init__(self, marca):
+        self.nombre = marca
+     
+    def setMarca(self, marca):
         self.marca = marca
 
-    def getmarca(self):
+    def getMarca(self):
         self.marca
 
 
