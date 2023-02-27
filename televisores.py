@@ -84,7 +84,7 @@ class TV:
         self.volumenUp = self.volumen +1
         self.volumenDown = self.volumen -1
         
-        if self.estado = True:
+        if self.estado == True:
             if self.volumenUp == True and self.volumenUp <=7:
                 self.volumen = self.volumenUp
 
