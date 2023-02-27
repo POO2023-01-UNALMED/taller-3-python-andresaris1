@@ -12,7 +12,7 @@ class TV:
         self.estado = estado
         self.volumen = volumen
         self.control = control
-        TV._TV__numTV +=1
+        TV._numTV +=1
 
     def TV(self, marca, estado):
         self.estado = estado
