@@ -1,5 +1,5 @@
 class Marca:
-    marca = marca
+    marca = str
         
     def setMarca(self, marca):
         self.marca = marca
