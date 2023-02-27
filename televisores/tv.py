@@ -5,11 +5,20 @@ class TV:
     precio = 500
     numTV = 0
     
+
+    @classmethod
+    def setNumTV(cls, numTV):
+        cls.numTV = numTV
+
+    @classmethod
+    def getNumTV(cls):
+        return numTV
+    
+
     def __init__(self, marca, estado):
         self.marca = marca
         self.estado = estado
         self.control= None
-        TV.numTV += 1
         
 
     def get_marca(self):
