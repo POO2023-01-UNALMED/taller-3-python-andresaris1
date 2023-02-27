@@ -12,6 +12,13 @@ class TV:
         self.estado = estado
         self.volumen = volumen
         self.control = control
+
+    def setNumTV(numTV):
+        TV.numTV = numTV
+
+    def getNumTV(numTV):
+        return numTV
+
     
     @classmethod
     def setNumTV(cls):
@@ -26,7 +33,7 @@ class TV:
         self.estado = estado
 
     def setmarca(self, marca):
-        self.marca = Marca
+        self.marca = marca
 
     def setcontrol(self, control):
         self.control = control
