@@ -14,7 +14,7 @@ class TV:
         self.control = control
 
     def setNumTV(numTV):
-        TV.numTV = numTV
+        TV.numTV += 1
 
     def getNumTV(numTV):
         return numTV
