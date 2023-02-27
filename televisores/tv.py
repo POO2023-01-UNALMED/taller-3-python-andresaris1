@@ -13,6 +13,14 @@ class TV:
         self.volumen = volumen
         self.control = control
 
+    @classmethod
+    def getNumTV(cls):
+        return numTV
+    
+    @classmethod
+    def setNumTV(cls):
+        cls._numTV +=1
+    
 
     def TV(self, marca, estado):
         self.estado = estado
@@ -83,12 +91,4 @@ class TV:
             elif self.volumenDown == True and volumenDown >=0:
                 self.volumen = volumenDown
 
-    @classmethod
-    def getnumTV(cls):
-        return numTV
-    
-    @classmethod
-    def setnumTV(cls):
-        cls._numTV +=1
-    
 
