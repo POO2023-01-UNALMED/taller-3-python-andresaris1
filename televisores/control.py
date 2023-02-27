@@ -2,6 +2,11 @@ class Control:
     def __init__(self, tv):
         self._tv = none
 
+    def get_tv(self):
+        return self._tv
+    def set_tv(self):
+        self._tv = tv
+
     def canalUp(self):
         self._tv.canalUp()
     def canalDown(self):
@@ -21,7 +26,7 @@ class Control:
         self._tv.sercanal
         
 
-    def enlazar(self):
+    def enlazar(self, tv):
         self._tv = tv
         self._tv-setcontrol(self)
 
