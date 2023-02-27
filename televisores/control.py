@@ -32,8 +32,8 @@ class Control:
         if self.tv:
             self.tv.volumenDown()
 
-    def setCanal(self):
-        self.tv.setCanal()
+    def setCanal(self, canal):
+        self.tv.setCanal = canal
 
     def enlazar(self, tv):
         self.tv = tv
