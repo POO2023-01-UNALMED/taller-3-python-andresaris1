@@ -17,7 +17,7 @@ class Control:
     def turnOff(self):
         self._tv.turnOff
 
-    def setcanal(self):
+    def setCanal(self):
         self._tv.sercanal
         
 
