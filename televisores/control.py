@@ -32,9 +32,9 @@ class Control:
         if self.tv:
             self.tv.volumenDown()
 
-    def setCanal(self, canal):
-        if tv.setCanal <=120 or >=1:
-            self.tv.setCanal = canal
+    def setCanal(self):
+        if self.tv:
+            self.tv.setCanal()
 
     def enlazar(self, tv):
         self.tv = tv
