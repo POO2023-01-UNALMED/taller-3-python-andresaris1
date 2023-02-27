@@ -14,7 +14,7 @@ class TV:
         return cls.numTV
     @classmethod
     def setNumTV(cls,numTV):
-        cls.numTV =numTV
+        cls.numTV = numTV +1
         
 
     def getMarca(self):
