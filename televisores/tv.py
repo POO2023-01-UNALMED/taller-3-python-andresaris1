@@ -30,7 +30,8 @@ class TV:
         self.volumen = volumen
 
     def setcanal(self, canal):
-        self.canal = canal
+        if canal>=120 or <=1:
+            self.canal = canal
 
     def getmarca(self):
         return self.marca
@@ -85,5 +86,4 @@ class TV:
     @classmethod
     def setnumTV(cls):
         cls._numTV +=1
-        return cls._numTV
 
