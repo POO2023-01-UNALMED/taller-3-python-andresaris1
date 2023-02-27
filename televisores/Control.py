@@ -16,3 +16,4 @@ class Control:
     def getenlazar(self):
         if(isinstance(self._enlazar, TV)):
             self._enlazar
+
