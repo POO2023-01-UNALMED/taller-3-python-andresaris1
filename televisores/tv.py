@@ -7,7 +7,7 @@ class TV:
         self.precio = 500
         self.estado = estado
         self.volumen = 1
-        self.Control = None
+        self.control = None
         TV.numTV +=1
 
     @classmethod
@@ -72,5 +72,5 @@ class TV:
     def getControl(self):
         return self.control
 
-    def setControl(self, Control):
-        self.Control = control
+    def setControl(self, control):
+        self.control = control
