@@ -85,4 +85,5 @@ class TV:
     @classmethod
     def setnumTV(cls):
         cls._numTV +=1
+        return cls._numTV
 
