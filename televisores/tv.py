@@ -16,7 +16,11 @@ class TV:
     
 
     def __init__(self, marca, estado):
+        self.marca = marca
         self.estado = estado
+        self.control= none
+        TV.numTV +=1
+        
 
     def setMarca(self, marca):
         self.marca = marca
