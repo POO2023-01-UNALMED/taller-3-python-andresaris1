@@ -23,6 +23,6 @@ class Control:
 
     def enlazar(self):
         self._tv = tv
-        self._tv-setControl(self)
+        self._tv-setcontrol(self)
 
 
