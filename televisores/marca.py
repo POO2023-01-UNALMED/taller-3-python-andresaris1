@@ -1,10 +1,10 @@
 class Marca:
     marca = str
         
-    def setMarca(self, marca):
+    def setmarca(self, marca):
         self.marca = marca
 
-    def getMarca(self):
+    def getmarca(self):
         self.marca
 
 
