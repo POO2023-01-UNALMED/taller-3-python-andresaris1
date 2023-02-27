@@ -21,7 +21,7 @@ class TV:
         self.marca = marca
 
     def setcontrol(self, control):
-        self.control = Control
+        self.control = control
 
     def setprecio(self, precio):
         self.precio = precio
